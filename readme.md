@@ -14,3 +14,8 @@ Field name: uploader ( for uploading files)
 
 Use token for other api (upload,remove and listing) received from signin api in header:
 Authorization: Bearer token
+
+For transaction in mongodb You need to have replica server and to create replica server here are the command:
+
+1. install run-rs command npm i run-rs if it fails then try: sudo npm install -g run-rs --unsafe-perm=true --allow-root
+2. run this command:  run-rs --version 4.0.0
