@@ -7,7 +7,7 @@ Installation Steps:
 
 To see upload file in browser URL: http://site_url/file_path for eg http://localhost:3000/uploads/uploader-15858951273822075944_20200318.pdf
 
-Here mongodb is used as database and hosted atmongodb://localhost:27017,localhost:27018,localhost:27019/dbname.
+Here mongodb is used as database and hosted at mongodb://localhost:27017,localhost:27018,localhost:27019/dbname.
 jsonwebtoken is used to create token for user authentication.
 mutler and fs package used for uploading and removing file and validation added to allow images(png,jpg,gif) and pdf for uploading.
 Field name: uploader ( for uploading files)
